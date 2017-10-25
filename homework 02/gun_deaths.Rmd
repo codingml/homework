@@ -1,0 +1,79 @@
+---
+title: "Exploring Gun Deaths in America"
+author: "Your name"
+output: github_document
+---
+
+## Get the data
+
+```{r}
+# don't modify this chunk unless you still need to install rcfss
+# if so, run "devtools::install_github("uc-cfss/rcfss")" in the console first
+
+library(tidyverse)    # load tidyverse packages, including ggplot2
+library(rcfss)
+
+# load the data
+data("gun_deaths")
+gun_deaths
+```
+
+## In what month do the most gun deaths occur?
+
+```{r}
+
+```
+
+## What is the most common intent in gun deaths? Do most people killed by guns die in suicides, homicides, or accidental shootings?
+
+```{r}
+
+```
+
+## What is the average age of females killed by guns?
+
+```{r}
+
+```
+
+## How many white males with at least a high school education were killed by guns in 2012?
+
+```{r}
+
+```
+
+## Which season of the year has the most gun deaths?
+
+Assume that:
+
+* Winter = January-March
+* Spring = April-June
+* Summer = July-September
+* Fall = October-December
+
+```{r}
+
+```
+
+# What is the relationship between race and intent?
+
+For example, are whites who are killed by guns more likely to die because of suicide or homicide? How does this compare to blacks and hispanics?
+
+```{r}
+
+```
+
+# Are police-involved gun deaths significantly different from other gun deaths? Assess the relationship between police involvement and age, police involvement and race, and the intersection of all three variables.
+
+```{r}
+
+```
+
+## Session info
+
+```{r}
+# don't modify this chunk
+devtools::session_info()
+```
+
+
